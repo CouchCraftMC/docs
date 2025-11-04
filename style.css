@@ -23,6 +23,47 @@ a:hover {
     bottom: 0;
     padding: 10px;
     overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #555 #2b2b2b;
+}
+
+.sidebar::-webkit-scrollbar {
+    width: 8px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+    background: #2b2b2b;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+    background-color: #555;
+    border-radius: 4px;
+}
+
+.nav ul li ul {
+    margin-left: 15px;
+    display: none;
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0;
+}
+
+.nav ul li ul.show {
+    display: block;
+    max-height: 500px;
+    opacity: 1;
+}
+
+.nav ul li {
+    margin: 10px 0;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.nav ul li:hover {
+    background-color: #3a3a3a;
 }
 
 .logo {
