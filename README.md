@@ -1,0 +1,2 @@
+# docs
+Official server documentation!
