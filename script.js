@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
         if (submenu) {
             item.addEventListener("click", function(e) {
                 e.stopPropagation();
-                submenu.style.display = (submenu.style.display === "block") ? "none" : "block";
+                submenu.classList.toggle("show");
             });
         }
     });
