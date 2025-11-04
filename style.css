@@ -117,3 +117,66 @@ a:hover {
     text-align: center;
     color: #999999;
 }
+
+.main-content h1, 
+.main-content h2, 
+.main-content h3, 
+.main-content h4, 
+.main-content h5, 
+.main-content h6 {
+    color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.main-content p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #e0e0e0;
+}
+
+.main-content a {
+    color: #4ea1f3;
+    text-decoration: underline;
+}
+
+.main-content a:hover {
+    color: #6cb8f9;
+}
+
+.main-content ul, 
+.main-content ol {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.main-content blockquote {
+    border-left: 4px solid #4ea1f3;
+    padding-left: 15px;
+    color: #cccccc;
+    margin: 15px 0;
+}
+
+.main-content code {
+    background-color: #2b2b2b;
+    padding: 2px 5px;
+    border-radius: 4px;
+    font-family: monospace;
+    font-size: 0.95em;
+}
+
+.main-content pre {
+    background-color: #2b2b2b;
+    padding: 10px;
+    border-radius: 6px;
+    overflow-x: auto;
+    font-family: monospace;
+    font-size: 0.95em;
+}
+
+.main-content hr {
+    border: none;
+    border-top: 1px solid #3a3a3a;
+    margin: 30px 0;
+}
