@@ -1,5 +1,6 @@
 # docs
 Official server documentation!
+
 © 2025 CouchCraftMC. All Rights Reserved.
 
 This repository and its contents (including text, images, code, and media) are protected by copyright law. 
