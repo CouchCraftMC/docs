@@ -1,1 +1,78 @@
-uh, chcken
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+a {
+    color: #4ea1f3;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #2b2b2b;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 5px;
+}
+
+.logo h1 {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.nav ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.nav ul li {
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.nav ul li ul {
+    margin-left: 15px;
+    display: none;
+}
+
+.nav ul li:hover > ul {
+    display: block;
+}
+
+.main-content {
+    margin-left: 270px;
+    padding: 20px;
+}
+
+.top-space {
+    height: 20px;
+}
+
+.footer {
+    margin-top: 50px;
+    font-size: 0.9em;
+    text-align: center;
+    color: #999999;
+}
